@@ -6,7 +6,7 @@ The program takes 3 inputs from the user:
 - The name they want the QR code to be labeled
 - The color of the QR code
 
-The program will output an image of the QR code in the project folder. 
+The program will output an image of the QR code in the `/generated_codes` folder.
 There are 3 example pictures. 
 
-*Built with Python, by Sam Lowry 2026
+*Built with Python, by Sam Lowry 2026*
