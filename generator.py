@@ -3,6 +3,7 @@ from colors import colors
 import re
 from colorama import Fore, Back, Style
 import os
+from PIL import Image
 
 color_list = colors.keys()
 
@@ -53,6 +54,7 @@ def generator_function (text, file_name):
 
     os.makedirs("generated_codes", exist_ok=True)        
     img.save(os.path.join("generated_codes", file_name))
+    img.show()
 
 website = input("Please entire your URL: ")
 file_name = input("What do you want the QR code to be called? ") + ".png"
