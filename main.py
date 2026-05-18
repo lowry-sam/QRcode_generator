@@ -1,24 +1,28 @@
-import qrcode as generator
+import qrcode 
 from colors import colors
 import re
 from colorama import Fore, Back, Style
 import os
 from PIL import Image
-from gui import website, my_color, name
 
 color_list = colors.keys()
 
-def generator_function (text, file_name, color):
-    qr = generator.QRCode(
+from gui import QRCode
+text=QRCode.file_name
+file_name=QRCode.file_name
+color=QRCode.chosen_color
+
+def my_function (text, file_name, color):
+    qr = qrcode.QRCode(
         version = 1, 
-        error_correction = generator.constants.ERROR_CORRECT_M,
+        error_correction = qrcode.constants.ERROR_CORRECT_M,
         box_size = 20, 
         border = 2,
     )
     qr.add_data(text)
     qr.make(fit = True)
 
-    if(text==""):
+    if(color==""):
         while True:
             color = input("What color do you want it to be? ")
             color = color.lower()
@@ -60,8 +64,12 @@ def generator_function (text, file_name, color):
     img.save(os.path.join("generated_codes", file_name))
     img.show()
 
-website = input("Please entire your URL: ")
-file_name = input("What do you want the QR code to be called? ") + ".png"
+if not(QRCode.file_name == "" or QRCode.website == ""):
+    my_function(text,file_name,color)
+#website = input("Please entire your URL: ")
+#file_name = input("What do you want the QR code to be called? ") + ".png"
 
-generator_function(website, file_name, "")
-print("QR code saved under " + file_name)
+#my_function(website, file_name, "")
+#functionB()
+#my_function(websites, name, "")
+#print("QR code saved under " + file_name)

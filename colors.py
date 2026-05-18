@@ -1,7 +1,6 @@
 import matplotlib.pyplot as plt
 from matplotlib import colors as mcolors
 
-
 colors = dict(mcolors.BASE_COLORS, **mcolors.CSS4_COLORS)
 
 # Sort colors by hue, saturation, value and name.
