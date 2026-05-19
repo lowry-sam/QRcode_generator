@@ -1,16 +1,18 @@
 # QRcode Generator
 A python program for creating QR codes for any website.
 
+*Created with Python 3.14.5*
+
 There are 3 different ways to run this program.
 
-1. Navigate to `/dist` and launch `gui.exe`
-2. Type: `python gui.py`
+1. Navigate to `/dist` and launch `"gui.exe"`
+2. Type: `"python gui.py"`
     - The gui program takes 4 inputs from the user:
         1. The URL of the website
         2. The name they want the QR code to be labeled
         3. The color of the QR code (via ColorSelector)
         4. The file type (`.png`, `.jpg`, or `.svg`)
-3. Type `python main.py` to run via terminal
+3. Type `"python main.py"` to run via terminal
     - The terminal program takes 3 inputs from the user:
         1. The URL of the website
         2. The name they want the QR code to be labeled
