@@ -67,7 +67,7 @@ def submit_func():
         resize = img.resize((300,300))
         image = ImageTk.PhotoImage(resize)
 
-        """bp = directory
+        bp = directory
         bq = os.path.join(directory,"generated_codes")
         fn = QRCode.file_name
         folder = "generated_codes"
@@ -78,7 +78,7 @@ def submit_func():
         except: shutil.move(fp, full)
         
         if not ext=="png":
-            os.remove(os.path.join(bp, file_n_png))"""
+            os.remove(os.path.join(bp, file_n_png))
 
         global code, code2, new_code
         code = Label()
