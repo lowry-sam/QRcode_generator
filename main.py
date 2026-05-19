@@ -7,10 +7,10 @@ from PIL import Image
 
 color_list = colors.keys()
 
-from gui import QRCode
-text=QRCode.file_name
-file_name=QRCode.file_name
-color=QRCode.chosen_color
+"""class QRCode:
+    website = ""
+    file_name = ""
+    chosen_color = """""
 
 def my_function (text, file_name, color):
     qr = qrcode.QRCode(
@@ -61,15 +61,17 @@ def my_function (text, file_name, color):
         img = qr.make_image(fill_color=color, back_color='white')
                 
     os.makedirs("generated_codes", exist_ok=True)        
-    img.save(os.path.join("generated_codes", file_name))
-    img.show()
+    try: 
+        img.save(os.path.join("generated_codes", file_name))
+        print("Success! Your QR code was saved as '", file_name, "' Showing now...")
+        img.show()
+    except: print("An error has occured, please try again.")
+    
 
-if not(QRCode.file_name == "" or QRCode.website == ""):
-    my_function(text,file_name,color)
-#website = input("Please entire your URL: ")
-#file_name = input("What do you want the QR code to be called? ") + ".png"
+website = input("Please entire your URL: ")
+file_name = input("What do you want the QR code to be called? ") + ".png"
 
-#my_function(website, file_name, "")
+my_function(website, file_name, "")
 #functionB()
 #my_function(websites, name, "")
 #print("QR code saved under " + file_name)
