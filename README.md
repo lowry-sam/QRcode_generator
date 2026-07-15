@@ -21,6 +21,6 @@ There are 3 different ways to run this program.
 The program will output an image of the QR code in the `/generated_codes` folder. Currently, the executable saves the images inside the `dist` folder.
 There are 3 example pictures in the `/generated_codes` folder, to demonstrate how the app can be used to save QR codes of different colors and types. 
 
-![cover image](images/cover.png)
+![cover image](README/images/cover.png)
 
 *Built with Python, by Sam Lowry 2026*
