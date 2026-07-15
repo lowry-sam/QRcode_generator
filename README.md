@@ -22,6 +22,7 @@ The program will output an image of the QR code in the `/generated_codes` folder
 There are 3 example pictures in the `/generated_codes` folder, to demonstrate how the app can be used to save QR codes of different colors and types. 
 
 <!-- ![cover image](README/images/cover.png)
+<!-- ![cover image](README/images/cover.png)
 ![example image](README/images/LinkedIn.png)
 ![example gif](README/images/youtubevid.gif)
 ![colors](README/images/color.gif) -->
