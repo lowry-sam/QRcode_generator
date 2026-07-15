@@ -27,9 +27,10 @@ There are 3 example pictures in the `/generated_codes` folder, to demonstrate ho
 ![example gif](README/images/youtubevid.gif)
 ![colors](README/images/color.gif) -->
 
-<h2 align="center" style="vertical-align: middle;">
-    <img src="README/images/cover.png" width="425px"/>
+<h2 align="center" style="margin-;">
+    <img src="README/images/cover.png" width="425px"/> <h3>&nbsp;&nbsp;&nbsp;&nbsp;</h3>
     <img src="README/images/youtubevid.gif" width="200px">
+    <br/>
     <img src="README/images/color.gif" width="425px">
     <img src="README/images/LinkedIn.png" width="200px">
 </h2>
