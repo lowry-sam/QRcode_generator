@@ -28,10 +28,10 @@ There are 3 example pictures in the `/generated_codes` folder, to demonstrate ho
 ![colors](README/images/color.gif) -->
 
 <h2 align="center" style="margin-;">
-    <img src="README/images/cover.png" width="425px" hspace=15/>
+    <img src="README/images/cover.png" width="425px" hspace=20 vspace=20/>
     <img src="README/images/youtubevid.gif" width="200px">
     <br/>
-    <img src="README/images/color.gif" width="425px">
+    <img src="README/images/color.gif" width="425px" hspace=20>
     <img src="README/images/LinkedIn.png" width="200px">
 </h2>
 
