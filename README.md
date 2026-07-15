@@ -28,11 +28,11 @@ There are 3 example pictures in the `/generated_codes` folder, to demonstrate ho
 ![colors](README/images/color.gif) -->
 
 <h2 align="center" style="margin-;">
-    <img src="README/images/cover.png" width="425px" hspace=20 vspace=20/>
-    <img src="README/images/youtubevid.gif" width="200px">
+    <img src="README/images/cover.png" width="425px" hspace=20/>
+    <img src="README/images/youtubevid.gif" width="200px" vspace=20>
     <br/>
     <img src="README/images/color.gif" width="425px" hspace=20>
-    <img src="README/images/LinkedIn.png" width="200px">
+    <img src="README/images/LinkedIn.png" width="200px" hspace=20>
 </h2>
 
 *Built with Python, by Sam Lowry 2026*
