@@ -29,7 +29,7 @@ There are 3 example pictures in the `/generated_codes` folder, to demonstrate ho
 
 <h2 align="left">   
     <img src="README/images/cover.png" width="425px" vspace="50px"/>
-    <img src="README/images/youtubevid.gif" width="200px" hspace="50px" vspace="50px">
+    <img src="README/images/youtubevid.gif" width="200px" height="400px" hspace="50px" vspace="50px">
     <img src="README/images/color.gif" width="425px" >
     <img src="README/images/LinkedIn.png" width="250px" height="400px" hspace="50px" vspace="50px">
 </h2>
