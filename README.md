@@ -26,4 +26,8 @@ There are 3 example pictures in the `/generated_codes` folder, to demonstrate ho
 ![example gif](README/images/youtubevid.gif)
 ![colors](README/images/color.gif)
 
+<p float="left>
+    <img src="README/images/cover.png" width="100"/>
+</p>
+
 *Built with Python, by Sam Lowry 2026*
