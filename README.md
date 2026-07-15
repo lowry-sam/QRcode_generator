@@ -27,11 +27,11 @@ There are 3 example pictures in the `/generated_codes` folder, to demonstrate ho
 ![example gif](README/images/youtubevid.gif)
 ![colors](README/images/color.gif) -->
 
-<p align="center" style="vertical-align: middle;">
+<h2 align="center" style="vertical-align: middle;">
     <img src="README/images/cover.png" width="200px"/>
     <img src="README/images/LinkedIn.png" width="200px">
     <img src="README/images/youtubevid.gif" width="200px">
     <img src="README/images/color.gif" width="200px">
-</p>
+</h2>
 
 *Built with Python, by Sam Lowry 2026*
