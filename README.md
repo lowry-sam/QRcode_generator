@@ -27,11 +27,11 @@ There are 3 example pictures in the `/generated_codes` folder, to demonstrate ho
 ![example gif](README/images/youtubevid.gif)
 ![colors](README/images/color.gif) -->
 
-
-<img src="README/images/cover.png" width="200px"/>
-<img src="README/images/LinkedIn.png" width="200px">
-<img src="README/images/youtubevid.gif" width="200px">
-<img src="README/images/color.gif" width="200px">
-
+<div>
+    <img src="README/images/cover.png" width="200px"/>
+    <img src="README/images/LinkedIn.png" width="200px">
+    <img src="README/images/youtubevid.gif" width="200px">
+    <img src="README/images/color.gif" width="200px">
+</div>
 
 *Built with Python, by Sam Lowry 2026*
