@@ -27,7 +27,7 @@ There are 3 example pictures in the `/generated_codes` folder, to demonstrate ho
 ![example gif](README/images/youtubevid.gif)
 ![colors](README/images/color.gif) -->
 
-<h2 align="left" style="vertical-align: middle;">
+<h2 align="center" style="vertical-align: middle;">
     <img src="README/images/cover.png" width="425px"/>
     <img src="README/images/youtubevid.gif" width="200px">
     <img src="README/images/color.gif" width="425px">
